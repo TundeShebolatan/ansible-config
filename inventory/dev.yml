@@ -1,12 +1,12 @@
 [nfs]
-172.31.0.176 ansible_ssh_pass=vagrant ansible_ssh_user=vagrant
+172.31.0.176 ansible_ssh_user='ec2-user'
 
 [webservers]
-172.31.12.103 ansible_ssh_pass=vagrant ansible_ssh_user=vagrant
-172.31.5.216 ansible_ssh_pass=vagrant ansible_ssh_user=vagrant
+172.31.12.103 ansible_ssh_user='ec2-user'
+172.31.5.216 ansible_ssh_user='ec2-user'
 
 [db]
-172.31.3.53 ansible_ssh_pass=vagrant ansible_ssh_user=vagrant
+172.31.3.53 ansible_ssh_user='ec2-user'
 
 [lb]
 172.31.4.254 ansible_ssh_user='ubuntu'
